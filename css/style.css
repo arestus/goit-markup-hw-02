@@ -1,0 +1,35 @@
+/* Цвет основного текста #757575 */
+/* Цвет вторичного текста #212121 */
+/* Основной цвет фона #FFFFFF */
+/* Вторичный цвет фона #F5F4FA */
+/* Акцент #2196F3  */
+
+.link {
+  color: #212121;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.address {
+  color: #757575;
+}
+
+.address:hover,
+.address:focus {
+  color: #2196f3;
+}
+.accent {
+  color: #2196f3;
+}
+.color-first {
+  background-color: #ffffff;
+}
+.color-second {
+  background-color: #f5f4fa;
+}
+.color-third {
+  background-color: #2f303a;
+}
