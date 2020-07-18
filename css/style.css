@@ -87,6 +87,7 @@ body {
   line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* Button */
@@ -108,6 +109,7 @@ advantages */
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 
 .advantages-list {
@@ -267,4 +269,13 @@ advantages */
 
 .address-list {
   list-style: none;
+  font-style: normal;
+}
+
+.text-caps {
+  text-transform: uppercase;
+}
+
+.title-advantages {
+  text-transform: uppercase;
 }
