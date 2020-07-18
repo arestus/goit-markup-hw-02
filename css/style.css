@@ -11,13 +11,13 @@
   --title-text-color: #ffffff;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --secondary-grey-color: #f5f4fa;
 }
 
 body {
   background-color: var(--primary-white-color);
-  color: var(--primary-text-color);
 
-  font-family: Roboto, Raleway;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   letter-spacing: 0.02em;
   font-size: 14px;
@@ -25,9 +25,9 @@ body {
 }
 
 .logo {
-  --title-text-color: #000000;
-  font-family: Raleway;
-  font-weight: bold;
+  color: var(--title-text-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -36,7 +36,7 @@ body {
 
 .accent {
   color: var(--accent-color);
-  font-family: Relaway;
+  font-family: 'Raleway', sans-serif;
 
   font-weight: bold;
   font-size: 26px;
@@ -45,13 +45,16 @@ body {
   text-decoration: none;
 }
 
+/* site-navigation */
+
 .site-nav {
-  --secondary-text-color: #212121;
+  color: var(--secondary-text-color);
 
   font-weight: 500;
   font-size: 15px;
   line-height: 1.2;
   text-decoration: none;
+  list-style: none;
 }
 
 .site-nav .link:hover,
@@ -60,13 +63,14 @@ body {
 }
 
 .contacts {
-  --primary-text-color: #757575;
+  color: var(--secondary-text-color);
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  list-style: none;
 }
 
 .contacts .link:hover,
@@ -100,10 +104,167 @@ body {
 advantages */
 
 .advantages-list title {
-  --secondary-text-color: #212121;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.03em;
+}
+
+.advantages-list {
+  list-style: none;
+}
+
+.discription {
+  color: var(--primary-text-color);
+
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+.specialization {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  list-style: none;
+}
+
+.specialization-list {
+  list-style: none;
+}
+
+/* Команда сотрудников */
+
+.our-team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team {
+  background-color: var(--secondary-grey-color);
+}
+
+.teammates-list h3 {
+  color: var(--secondary-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.teammates-list {
+  list-style: none;
+}
+
+.sociallink-list {
+  list-style: none;
+}
+/* Вид деятельности сотрудников */
+
+.profession {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
+/* Раздел "Постоянные клиенты" */
+
+.clients {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.clients-list {
+  list-style: none;
+}
+
+/* Футер */
+
+.footer-background {
+  background-color: #2f303a;
+}
+
+.our-address {
+  color: var(--title-text-color);
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+}
+
+.our-contacts {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.join {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.mailing {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.filter-list {
+  list-style: none;
+}
+
+.picture-name {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.filter-nav {
+  text-decoration: none;
+}
+
+.text-icon {
+  color: var(--secondary-text-color);
+
+  font-size: 18px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.filter-type {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.address-list {
+  list-style: none;
 }
