@@ -2,34 +2,108 @@
 /* Цвет вторичного текста #212121 */
 /* Основной цвет фона #FFFFFF */
 /* Вторичный цвет фона #F5F4FA */
+/* Цвет фона футера  #2f303a  */
 /* Акцент #2196F3  */
 
-.link {
-  color: #212121;
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --title-text-color: #ffffff;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
 
-.link:hover,
-.link:focus {
-  color: #2196f3;
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, Raleway;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  line-height: 1.14;
 }
 
-.address {
-  color: #757575;
+.logo {
+  --title-text-color: #000000;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
 
-.address:hover,
-.address:focus {
-  color: #2196f3;
-}
 .accent {
-  color: #2196f3;
+  color: var(--accent-color);
+  font-family: Relaway;
+
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
 }
-.color-first {
-  background-color: #ffffff;
+
+.site-nav {
+  --secondary-text-color: #212121;
+
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.2;
+  text-decoration: none;
 }
-.color-second {
-  background-color: #f5f4fa;
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
 }
-.color-third {
-  background-color: #2f303a;
+
+.contacts {
+  --primary-text-color: #757575;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title {
+  color: var(--title-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* Button */
+
+.button {
+  color: var(--title-text-color);
+  background-color: #2196f3;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+}
+
+/* 
+advantages */
+
+.advantages-list title {
+  --secondary-text-color: #212121;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
 }
