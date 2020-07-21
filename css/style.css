@@ -200,6 +200,7 @@ advantages */
   color: var(--title-text-color);
   font-size: 14px;
   line-height: 1.7;
+  list-style: none;
 
   letter-spacing: 0.03em;
 }
