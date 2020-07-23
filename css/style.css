@@ -39,7 +39,7 @@ body {
   color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -237,6 +237,7 @@ advantages */
 .filter-list {
   font-weight: 500;
   list-style: none;
+  font-family: Roboto, sans-serif;
 }
 
 .picture-name {
@@ -272,6 +273,7 @@ advantages */
 .address-list {
   list-style: none;
   font-style: normal;
+  font-weight: 500;
 }
 
 .text-caps {
@@ -295,4 +297,11 @@ advantages */
 .button:focus {
   color: var(--title-text-color);
   background-color: var(--accent-color);
+}
+
+.address-footer {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  list-style: none;
 }
