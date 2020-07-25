@@ -314,6 +314,7 @@ advantages */
   letter-spacing: 0.06em;
   color: var(--title-text-color);
   background-color: var(--accent-color);
+  border: 0px;
 }
 
 .button:hover,
@@ -336,6 +337,7 @@ advantages */
   letter-spacing: 0.06em;
   color: var(--secondary-text-color);
   background-color: var(--secondary-background-color);
+  border: 0px;
 }
 
 .button-filter:focus,
