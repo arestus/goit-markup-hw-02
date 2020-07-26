@@ -72,7 +72,7 @@ body {
 }
 
 .contacts {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
 
   font-weight: 500;
   font-size: 14px;
